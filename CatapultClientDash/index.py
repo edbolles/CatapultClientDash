@@ -16,10 +16,10 @@ app.layout = html.Div(
         # header
         html.Div([
 
-            html.Span("CRM App using Salesforce API", className='app-title'),
+            html.Span("Catapult Insight Demo", className='app-title'),
             
             html.Div(
-                html.Img(src='https://s3-us-west-1.amazonaws.com/plotly-tutorials/logo/new-branding/dash-logo-by-plotly-stripe-inverted.png',height="100%")
+                html.Img(src='images/catapult_logo.png',height="100%",alt='catapult pic')
                 ,style={"float":"right","height":"100%"})
             ],
             className="row header"

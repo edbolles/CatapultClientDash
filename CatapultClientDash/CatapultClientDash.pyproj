@@ -784,6 +784,7 @@
     <Content Include="env\Scripts\_testimportmultiple.pyd" />
     <Content Include="env\Scripts\_testmultiphase.pyd" />
     <Content Include="env\Scripts\_tkinter.pyd" />
+    <Content Include="images\Catapult_logo.PNG" />
     <Content Include="images\dash-logo-stripe.png" />
     <Content Include="images\dash-salesforce-crm.gif" />
     <Content Include="Procfile" />
