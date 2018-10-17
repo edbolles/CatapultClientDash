@@ -10,6 +10,10 @@ from plotly import graph_objs as go
 import math
 from app import app, server, sf_manager
 from apps import opportunities, cases, leads
+import base64
+
+image_filename = 'catapult-logo.png' # replace with your own image
+encoded_image = base64.b64encode(open(image_filename, 'rb').read())
 
 app.layout = html.Div(
     [
@@ -19,7 +23,7 @@ app.layout = html.Div(
             html.Span("Catapult Insight Demo", className='app-title'),
             
             html.Div(
-                html.Img(src='images/catapult_logo.png',height="100%",alt='catapult pic')
+                html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()),height="70%",alt="my pic")
                 ,style={"float":"right","height":"100%"})
             ],
             className="row header"

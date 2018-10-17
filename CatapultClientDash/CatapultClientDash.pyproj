@@ -357,6 +357,7 @@
     <Content Include="apps\__pycache__\leads.cpython-36.pyc" />
     <Content Include="apps\__pycache__\opportunities.cpython-36.pyc" />
     <Content Include="apps\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="catapult-logo.png" />
     <Content Include="env\Lib\site-packages\pip-9.0.1.dist-info\DESCRIPTION.rst" />
     <Content Include="env\Lib\site-packages\pip-9.0.1.dist-info\entry_points.txt" />
     <Content Include="env\Lib\site-packages\pip-9.0.1.dist-info\INSTALLER" />
